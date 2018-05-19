@@ -1,0 +1,86 @@
+<!doctype html>
+<html>
+<head>
+    	<meta charset="utf-8">
+    	<title>Single Page Scrolling created by Joey rivera</title>
+    	
+      <meta name="title" content="jQuery Single Page Scrolling by Joseph Rivera | JoeyVision Design" />
+    	
+      <meta name="description" content="An Apple-like one page scroller website (iPhone 5S website) with One Page Scroll plugin" />
+    	
+      <link rel="image_src" href="/images/notify_better_image.png" />
+      
+      <link rel="stylesheet" type="text/css" href="styles.css">
+    	
+      <link rel="shortcut icon" id="favicon" href="favicon.png"> 
+    	
+      <meta name="author" content="Joey">
+    	
+      <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,700' rel='stylesheet' type='text/css'>
+    	
+      <link href='http://fonts.googleapis.com/css?family=Pacifico:400' rel='stylesheet' type='text/css'>
+    	
+      <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
+      
+      <script type="text/javascript" src="jquery.onepage-scroll.js"></script>
+      
+      <link href='onepage-scroll.css' rel='stylesheet' type='text/css'>
+      
+      <meta name="viewport" content="initial-scale=1, width=device-width, maximum-scale=1, minimum-scale=1, user-scalable=no">
+      
+	<script>
+	  $(document).ready(function(){
+      $(".main").onepage_scroll({
+        sectionContainer: "section",
+        responsiveFallback: 600,
+        loop: true
+      });
+		});
+		
+	</script>
+</head>
+<body>
+  <div class="wrapper">
+	  <div class="main">
+	    
+      <section class="page1">
+        <div class="page_container">
+          <h1>One Page Scrolling</h1>
+          <h2>Create an Apple-like one page scroller website (iPhone 5S website) with One Page Scroll plugin</h2>
+          <div class="btns">
+            <a class="reload btn" href="https://github.com/joey7040/Single-page-scrolling">Download on Github</a>
+          </div>
+  	    </div>
+      </section>
+	    
+	    <section class="page2">
+	      <div class="page_container">
+          <h1>Ready-to-use plugin</h1>
+          <h2>All you need is an HTML markup and to call the script!</h2>
+          <code class="html">
+  	        &lt;div class="main"&gt;<br>
+  	          &lt;section&gt;...&lt;/section&gt;<br>
+  	          &lt;section&gt;...&lt;/section&gt;<br>
+  	          ...<br>
+  	        &lt;/div&gt;
+  	      </code>
+  	      
+  	      <code class="js">
+	          $(".main").onepage_scroll();
+	        </code>
+	      </div>
+      </section>
+	    
+	    <section class="page3">
+	      <div class="page_container">
+          <h1>Awesome or what?</h1>
+          <h2>You can customise the animation timing, the selector or even the animation easing using CSS3. Anyone is welcome to download it from my github!'</h2>
+          <div class="btns">
+  	        <a class="reload btn" href="https://github.com/joey7040/Single-page-scrolling">Download on Github</a>
+  	      </div>
+  	    </div>
+      </section>
+    </div>
+  </div>
+</body>
+</html>
